@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 ">Weather Dashboard</h1>
+            </div>
+        </div>
+    </div>
+    <aside>
+        <h1>Search for a City</h1>
+        <form>
+            <input id="query" type="text" placeholder="Enter a cities name">
+            <br>
+            <br>
+            <button id="searchBtn">Search</button>
+        </form>
+        <hr>
+        <div id="searchHistory"></div>
+    </aside>
+    <main>
+        <section>
+            <h1>City Data</h1>
+            <ul>
+                <li id="icon"></li>
+                <li id="temp"></li>
+                <li id="wind"></li>
+                <li id="humidity"></li>
+                <li id="uvIndex"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>5-Day Forecast</h2>
+            <div class="fiveDayForecast">one</div>
+            <div class="fiveDayForecast">two</div>
+            <div class="fiveDayForecast">three</div>
+            <div class="fiveDayForecast">four</div>
+            <div class="fiveDayForecast">five</div>
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>
