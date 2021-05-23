@@ -10,7 +10,7 @@ To install this webpage you will need to load the HTML file and the rest of the 
 ## Usage
 To use this webpage, enter a city into the search input in the top left corner. Click the Search button and that cities current weather will be loaded to the dashboard in addition to a button of all the cities the user has searched. They can then click on the button to reload that cities current weather forecast. 
 
-    ![Screenshot of webpage]("https://github.com/cbeard22/weatherdashboard/blob/3ab8b638f0b06897d22490a3cc35c2b7ecffdbbc/assets/weatherdashboard.png")
+    https://github.com/cbeard22/weatherdashboard/blob/3ab8b638f0b06897d22490a3cc35c2b7ecffdbbc/assets/weatherdashboard.png
   
 ## Credits
 List your collaborators, if any, with links to their GitHub profiles.
