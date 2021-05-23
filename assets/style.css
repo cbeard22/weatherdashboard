@@ -1,12 +1,65 @@
 * {
     font-family:'Nunito', sans-serif;
 }
-
+h1, h2, p{
+    color:white;
+}
+h2 {
+    text-align: center;
+}
 .display-4 {
+    color:black;
     text-align: center;
     font-size: 50px;
 }
 .container{
-    background-color: blue;
+    background-color:#D0D0D0;
     color:white;
+}
+#currentCity {
+    display: flex;
+    justify-content: center;
+}
+#wind {
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
+#temp {
+     display: flex;
+    justify-content: center;
+    color: white;
+}
+#icon {
+     display: flex;
+     justify-content: center;
+     color: white;
+}
+#humidity {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#uvIndex {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#icon{
+    filter: brightness(50%); 
+}
+body{
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2013/04/GettyImages-640318118-c83a508.jpg?webp=true&quality=90&resize=940%2C399");
+}
+p{
+    position: relative;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 18%;
+    float:left;
 }
