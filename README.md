@@ -1,8 +1,11 @@
 # Weather Dashboard
 
+## Deployable Website
+
+https://cbeard22.github.io/weatherdashboard/
+
 ## Description
 This weather dashboard is used to present the current weather of a given city when logged into the search input. The city is then logged in local storage to then be displayed again without having to re-enter the information just with the click of a button. The weather will display the wind speed, uv index, temperature, humidity, and and icon to display the weather. 
-
 
 ## Installation
 To install this webpage you will need to load the HTML file and the rest of the application will work. We have not learned how to hide our API key yet otherwise that may need to be added if you are using it on your own terms. 
