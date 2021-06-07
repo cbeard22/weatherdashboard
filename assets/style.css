@@ -16,6 +16,13 @@ h2 {
     background-color:#D0D0D0;
     color:white;
 }
+
+#city{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 #currentCity {
     display: flex;
     justify-content: center;
@@ -53,7 +60,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2013/04/GettyImages-640318118-c83a508.jpg?webp=true&quality=90&resize=940%2C399");
+    background-color: cornflowerblue;
 }
 p{
     position: relative;
